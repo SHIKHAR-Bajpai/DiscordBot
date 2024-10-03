@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: your-service-name
+    env: go
+    plan: standard
+    buildCommand: go build -o main .
+    startCommand: ./main
+    envVars:
+      - key: PORT
+        value: 10000
