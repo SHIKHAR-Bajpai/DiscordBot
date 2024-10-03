@@ -1,6 +1,6 @@
 module github.com/SHIKHAR-Bajpai/bot
 
-go 1.23.0
+go 1.23
 
 require (
 	github.com/bwmarrin/discordgo v0.28.1 // indirect
