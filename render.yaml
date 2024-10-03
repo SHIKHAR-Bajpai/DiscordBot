@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: your-service-name
+    name: discord-bot
     env: go
     plan: standard
     buildCommand: go build -o main .
